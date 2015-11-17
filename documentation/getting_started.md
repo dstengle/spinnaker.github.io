@@ -210,7 +210,9 @@ tool.
 If you have chosen to run Spinnaker inside an Amazon Web Services or
 Google Compute Engine VM, please ssh into the VM.
 
-Irrespective of the machine on which you have chosen to run Spinnaker,
+If installing the pre-built AMI on AWS, you can skip the rest of this step. The software is pre-installed and the ssh is only needed to tunnel the UI.
+
+If you are building Spinnaker on Google Compute Engine,
 at the command prompt, type in (or cut-and-paste) the following
 command:
 
